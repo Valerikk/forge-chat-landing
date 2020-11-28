@@ -1,0 +1,41 @@
+.calls{
+  height: 1000px;
+  /*background: url(../assets/images/calls_images/calls_img.svg) no-repeat;*/
+  margin-bottom: 100px;
+}
+.calls-text{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 139%;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.calls-title{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: right;
+  letter-spacing: 0.02em;
+}
+.calls-responses-title{
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.calls-responses-text{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 139%;
+  letter-spacing: 0.02em;
+}

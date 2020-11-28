@@ -1,0 +1,17 @@
+.boxedLetter {
+  background: linear-gradient(180deg, #2152FF 0%, #0075FF 100%);
+  border-radius: 5px;
+  display: inline-grid;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+}
+.blueText{
+  color: #2152FF;
+  margin: 0;
+  display: inline;
+}

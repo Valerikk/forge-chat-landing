@@ -1,0 +1,57 @@
+.input-email{
+  font-family: Gilroy;
+  font-style: normal;
+  color: #ffffff;
+  background: url('/assets/images/email_images/email\ form.svg') no-repeat ;
+  margin-bottom: 150px;
+}
+.email-title{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+.email-text{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.email-input{
+  width: 541px;
+  height: 80px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: .02em;
+  display: inline-flex;
+}
+.input{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: .02em;
+  border: none; 
+  border-radius: 10px;
+  outline: none;
+  -webkit-appearance: none;
+  width: 340px;
+
+}
+.email-submit{
+  width: 184px;
+  height: 66px;
+  background: #2152FF;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 7px;
+}
+.email-button-text{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}

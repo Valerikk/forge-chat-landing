@@ -1,0 +1,36 @@
+.crm{
+  font-family: Gilroy;
+  font-style: normal;
+  margin-bottom: 200px;
+  background: url('/assets/images/crm_images/Rectangle\ 576.svg') no-repeat;
+  background-position: 50% 30%;
+}
+.crm-title{
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.crm-text{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.crm-card-title{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #0D1F3C;
+}
+.crm-card-text{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-align: start;
+}

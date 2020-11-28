@@ -1,0 +1,124 @@
+.packs{
+  font-family: Gilroy;
+  font-style: normal;
+  margin-bottom: 200px;
+}
+.packs-title{
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.packs-text{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.packs-button{
+  width: 240px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+.button{
+  height: 44px;
+  width: 111.00030517578125px;
+  border-radius: 22px;
+  border: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.833333px;
+}
+.selected{
+  background-color: #2152FF;
+  color: aliceblue;
+}
+.most-popular{
+  width: 121px;
+  height: 27px;
+  background-color: #03CCF8;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.price{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
+.per-month{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  display: inline;
+}
+.pack-name{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+}
+.packs-ul{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+}
+.choose-pack-button{
+  width: 207px;
+  height: 43px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #2152FF;
+  background: #DAE6EC;
+  border-radius: 10px;
+  border:0;
+  vertical-align: bottom;
+}
+.choose-blue-pack-button{
+    width: 207px;
+    height: 43px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    background:#03CCF8;
+    border-radius: 10px;
+    border:0;
+}
+.packs-ul li{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
+.pack{
+  margin-top: 50px;
+}
+.blue-pack{
+  background: linear-gradient(180.9deg, #0674E4 -63.78%, #031F7D 115.4%);
+  box-shadow: 0px 20px 30px rgba(25, 27, 27, 0.2);
+  border-radius: 26px;
+  color: #ffffff;
+  height: 460px;
+}
+.table{
+  height: 516px;
+  width: 1200px;
+  background: url('/assets/images/packs_images/table_back.svg') no-repeat;
+}

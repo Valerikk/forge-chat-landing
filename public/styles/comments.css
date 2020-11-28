@@ -1,0 +1,30 @@
+.comments{
+  position: relative;
+}
+.comments-title{
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.comments-text{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.comment li{
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+}
+.slider{
+  overflow: hidden;
+  width: 920px;
+}
+.comments button{
+  background: 0;
+  border: 0;
+}
