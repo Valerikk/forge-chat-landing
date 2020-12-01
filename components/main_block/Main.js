@@ -6,7 +6,7 @@ export default function Main(){
         <div className="container">
           <img
             className={styles["second-background"]}
-            src="assets/images/main_images/screens.svg"
+            src="assets/images/main_images/screens.png"
           />
           <div className="row">
             <div className="col-md-2">

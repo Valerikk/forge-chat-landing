@@ -1,9 +1,7 @@
-.direct{
+.comments{
+  position: relative;
   font-family: Gilroy;
-  font-style: normal;
-  background: url('/assets/images/direct_images/Rectangle\ 578.svg') no-repeat;
-  background-position: center;
-  margin-bottom: 200px;
+  font-weight: normal;
 }
 .title{
   font-weight: 600;
@@ -18,4 +16,17 @@
   line-height: 25px;
   text-align: center;
   letter-spacing: 0.02em;
+}
+.comment li{
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+}
+.slider{
+  overflow: hidden;
+  width: 920px;
+}
+.comments button{
+  background: 0;
+  border: 0;
 }

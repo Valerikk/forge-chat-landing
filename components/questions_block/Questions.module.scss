@@ -1,0 +1,81 @@
+.questions{
+  background: url(/assets/images/question_images/background1.png) no-repeat;
+  background-position: center;
+  font-family: Gilroy;
+  font-weight: normal;
+  height: 600px;
+  margin-top: 100px;
+  margin-bottom:100px;
+}
+.title{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.text{
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.nameInput{
+  width: 281px;
+  height: 45px;
+  background: #EEF5FE;
+  border-radius: 10px;
+  border : 0;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+.emailInput{
+  width: 281px;
+  height: 45px;
+  background: #EEF5FE;
+  border-radius: 10px;
+  border : 0;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+.areaInput{
+  width: 281px;
+  height: 121px;
+  background: #EEF5FE;
+  border-radius: 10px;
+  border : 0;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+.block{
+  height: 550px;
+}
+.inputCol{
+  text-align: center;
+  background: url('/assets/images/question_images/Rectangle\ 530.png') no-repeat;
+  background-position: center;
+  height: 420px;
+}
+.button{
+  width: 281px;
+  height: 51px;
+  background: #2152FF;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 15px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
