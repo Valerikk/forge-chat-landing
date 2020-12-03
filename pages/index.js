@@ -1,29 +1,36 @@
+import PropTypes from 'prop-types'
 import Head from 'next/head'
-import Chatbot from '../components/chatbot_block/Chatbot';
-import Livechat from '../components/livechat_block/Livechat';
-import Calls from '../components/calls_block/Calls';
-import Main from '../components/main_block/Main';
-import Reasons from '../components/reason_block/reasons';
-import Email from '../components/email_block/Email';
-import Customitization from '../components/customitization_block/Customitization';
-import Integration from '../components/integration_block/Integartion';
-import Crm from '../components/crm_block/crm';
-import Direct from '../components/direct_block/Direct';
-import Packs from '../components/packs_block/Packs';
-import Comments from '../components/comments_block/comments';
-import RealFooter from '../components/RealFooter_block/RealFooter';
-export default function Home() {
-  return (
+import Chatbot from '../modules/chatbot/components/Chatbot';
+import Livechat from '../modules/livechat/components/Livechat';
+import Calls from '../modules/calls/components/Calls';
+import Main from '../modules/main/components/Main';
+import Reasons from '../modules/reasons/components/reasons';
+import Email from '../modules/email/components/Email';
+import Customitization from '../modules/customization/components/Customization';
+import Integration from '../modules/integration/components/Integartion';
+import Crm from '../modules/crm/components/crm';
+import Direct from '../modules/direct/components/Direct';
+import Packs from '../modules/packs/components/Packs';
+import Comments from '../modules/comments/components/Comments';
+import Footer from '../modules/footer/components/Footer';
+
+import { withTranslation } from '../i18n'
+
+
+
+
+function Home({t}) {
+    return (
     <React.Fragment>
-    <Head>
+     <Head>
       <meta charset="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <link href="./assets/fonts/Gilroy/stylesheet.css" rel="stylesheet"></link>
-    </Head>
+    </Head> 
 
-      <Main />
+       <Main />
 
-      <Reasons/>
+      <Reasons t={t}/>
       
       <Chatbot/>
 
@@ -33,7 +40,7 @@ export default function Home() {
 
       <Email/>
 
-      <Customitization />
+      <Customitization/>
 
       <Integration/>
 
@@ -45,7 +52,16 @@ export default function Home() {
 
       <Comments/>
 
-      <RealFooter/>
+      <Footer/>
     </React.Fragment>
   );
 }
+
+
+Home.propTypes = {
+  t: PropTypes.func.isRequired,
+}
+Home.getInitialProps = async () => ({
+  namespacesRequired: ['common'],
+})
+export default withTranslation('common')(Home)

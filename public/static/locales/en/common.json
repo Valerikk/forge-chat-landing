@@ -1,0 +1,176 @@
+{
+  "REASONS": {
+    "RIGHT_CHOISE": {
+      "boxedLetter": "A", 
+        "beforeColored": "", 
+        "colored": "few reasons", 
+        "afterColored": " why we might be the right choise"
+    },
+    "MUCH_MOOORE": {
+      "boxedLetter": "M", 
+        "beforeColored": "uch m", 
+        "colored": "ooo", 
+        "afterColored": "re that just a chatbot"
+    },
+    "HUMAN_SUPPORT":{
+      "boxedLetter": "P", 
+        "beforeColored": " ositive ", 
+        "colored": "human support ", 
+        "afterColored": "expirience"
+    },
+    "CONNECT_CUSTOMERS":{
+      "boxedLetter": "M", 
+        "beforeColored": " ost ", 
+        "colored": "powerfull ", 
+        "afterColored": "way to connect with your customers."
+    },
+    "CUSTOMIZE_WEBSITE":{
+      "boxedLetter": "C", 
+        "beforeColored": " ustomize your chat widget to match your ", 
+        "colored": "brand and website", 
+        "afterColored": ""
+    },
+    "PERFECT_INTEGRATION":{
+      "boxedLetter": "U", 
+        "beforeColored": " ses for this app to the ", 
+        "colored": "perfect integration", 
+        "afterColored": ""
+    },
+    "PRISING":{
+      "boxedLetter": "P", 
+        "beforeColored": " ricing to suit ", 
+        "colored": "all sizes ", 
+        "afterColored": "of buisiness"
+    },
+    "OTHER_FEATURES":{
+      "boxedLetter": "T", 
+        "beforeColored": " ry other features of ", 
+        "colored": "Forge Solutions!", 
+        "afterColored": ""
+    },
+    "FORGE_CRM":{
+      "boxedLetter": "F", 
+        "beforeColored": "orge:", 
+        "colored": "CRM", 
+        "afterColored": ""
+    },
+    "FORGE_DIRECT":{
+      "boxedLetter": "F", 
+        "beforeColored": "orge:", 
+        "colored": "Direct", 
+        "afterColored": ""
+    },
+    "USER_COMMENTS":{
+      "boxedLetter": "S", 
+        "beforeColored": " ee what our ", 
+        "colored": "users ", 
+        "afterColored": "say"
+    }
+  },
+  "INFOBLOCKS":{
+    "LOREM_IPSUM":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "VOICE_CALLS":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "LOREM_IPSUM1":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "MODIFY_CHAT":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "PERFECT_INTEGRATION":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "REAL_AVAILABILITY":{
+      "title":"Real time availability",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    "SMART_RESPONSES1":{
+      "title":"Real and smart respones",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    "SMART_RESPONSES2":{
+      "title":"Real and smart respones",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    "CUSTOMER_CARE1":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    "CUSTOMER_CARE2":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    "CUSTOMER_CARE3":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    "CALLS_BLOCK1":{
+      "title":"Real time availability",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    "CALLS_BLOCK2":{
+      "title":"Real and smart respones",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    "CALLS_BLOCK3":{
+      "title":"Real and smart respones",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    "CUSTOM_BLOCK1":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "CUSTOM_BLOCK2":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "CUSTOM_BLOCK3":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "CUSTOM_BLOCK4":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "CRM_BLOCK1":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "CRM_BLOCK2":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "CRM_BLOCK3":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "CRM_BLOCK4":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "DIRECT_BLOCK1":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "DIRECT_BLOCK2":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "DIRECT_BLOCK3":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "DIRECT_BLOCK4":{
+      "title":"Lorem Ipsum",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  }
+}

@@ -1,0 +1,79 @@
+import ReasonCard from "../../common/components/ReasonsCard";
+import style from "../services/direct.module.scss";
+import ReasonsTextCard from '../../common/components/ReasonTextCard';
+import { withTranslation } from '../../../i18n';
+import PropTypes from 'prop-types';
+
+
+function Direct({t}){
+  return(
+    <React.Fragment>
+      <div className={style.direct}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <img src="/assets/images/plus.svg" />
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-5">
+              <ReasonsTextCard
+                      reasonsKey="FORGE_DIRECT"
+                      t={t}
+                      alignment="center"
+              />
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-6">
+              <p className={style.text}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore .{" "}
+              </p>
+            </div>
+          </div>
+          <img src="/assets/images/direct_images/dir_img.svg" />
+          <div className="row justify-content-center">
+            <div className="col-md-4">
+              <ReasonCard 
+                  linkToIcon="/assets/images/direct_images/icon.png"
+                  reasonsKey="DIRECT_BLOCK1"
+                  t={t}
+              />
+            </div>
+            <div className="col-md-4">
+              <ReasonCard 
+                  linkToIcon="/assets/images/crm_images/icon_1.png"
+                  reasonsKey="DIRECT_BLOCK2"
+                  t={t}
+              />
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-md-4">
+              <ReasonCard 
+                  linkToIcon="/assets/images/direct_images/icon.png"
+                  reasonsKey="DIRECT_BLOCK3"
+                  t={t}
+              />
+            </div>
+            <div className="col-md-4">
+              <ReasonCard 
+                  linkToIcon="/assets/images/direct_images/icon.png"
+                  reasonsKey="DIRECT_BLOCK4"
+                  t={t}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </React.Fragment>
+  )
+}
+Direct.getInitialProps = async () => ({
+  namespacesRequired: ['common'],
+})
+
+Direct.propTypes = {
+  t: PropTypes.func.isRequired,
+}
+
+export default withTranslation('common')(Direct)
