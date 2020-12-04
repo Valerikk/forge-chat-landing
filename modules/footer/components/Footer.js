@@ -1,14 +1,23 @@
 import Info from "./Info";
 import Questions from "./Questons";
 import style from "../services/Footer.module.scss"
+import { withTranslation } from '../../../i18n';
+import PropTypes from 'prop-types';
 
-export default function Footer(){
+function Footer({t}){
   return(
-    <React.Fragment>
       <div className={style.realFooter}>
         <Questions/>
         <Info/>
       </div>
-    </React.Fragment>
   )
 }
+Footer.getInitialProps = async () => ({
+  namespacesRequired: ['common'],
+})
+
+Footer.propTypes = {
+  t: PropTypes.func.isRequired,
+}
+
+export default withTranslation('common')(Footer)

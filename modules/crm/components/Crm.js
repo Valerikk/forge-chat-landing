@@ -1,6 +1,7 @@
 import ReasonCard from "../../common/components/ReasonsCard";
 import style from '../services/crm.module.scss';
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
+import DescribingText from '../../common/components/DescribingText';
 import { withTranslation } from '../../../i18n';
 import PropTypes from 'prop-types';
 
@@ -15,6 +16,7 @@ function Crm({t}){
                   reasonsKey="OTHER_FEATURES"
                   t={t}
                   alignment="center"
+                  backURL="/assets/images/crm_images/underline.png"
               />
             </div>
           </div>
@@ -29,10 +31,11 @@ function Crm({t}){
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-6">
-              <p className={style.text}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore .{" "}
-              </p>
+                <DescribingText
+                  reasonsKey="CRM_TEXT"
+                  t={t}
+                  aligment="center"
+                />
             </div>
           </div>
           <img src="/assets/images/crm_images/crm_img.svg" />

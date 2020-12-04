@@ -1,6 +1,7 @@
 import style from "../services/chatbot.module.scss";
 import ReasonCard from "../../common/components/ReasonsCard";
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
+import DescribingText from '../../common/components/DescribingText';
 import { withTranslation } from '../../../i18n';
 import PropTypes from 'prop-types';
 
@@ -15,16 +16,17 @@ function Chatbot({t}) {
                 reasonsKey="MUCH_MOOORE"
                 t={t}
                 alignment="right"
+                backURL="/assets/images/chatbot_images/underline.png"
               />
             </div>
           </div>
           <div className="row">
             <div className="col-md-6 ml-md-auto">
-            <p className={style.text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
-            </p>
+                <DescribingText
+                  reasonsKey="CHATBOT_TEXT"
+                  t={t}
+                  aligment="right"
+                />
             </div>
           </div>
           <div className="row justify-content-end">

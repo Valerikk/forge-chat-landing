@@ -1,5 +1,6 @@
 import styles from '../services/comments.module.scss'
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
+import DescribingText from '../../common/components/DescribingText';
 import { withTranslation } from '../../../i18n';
 import PropTypes from 'prop-types';
 
@@ -19,10 +20,11 @@ function Comments({t}){
           </div>
           <div className="row justify-content-center">
             <div className="col-md-5">
-              <p className={styles.text}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
-              </p>
+                <DescribingText
+                  reasonsKey="COMMENTS_TEXT"
+                  t={t}
+                  aligment="center"
+                />
             </div>
           </div>
           <div className="row justify-content-center align-items-center">

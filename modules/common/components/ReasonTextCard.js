@@ -10,13 +10,13 @@ const getReasons = (key, t ) => {
   }
 }
 
-export default function ReasonsTextCard({reasonsKey, t, alignment = "left"}){
+export default function ReasonsTextCard({reasonsKey, t, backURL,alignment = "left"}){
   const textData = getReasons(reasonsKey, t)
   const {boxedLetter, beforeColored, colored, afterColored} = textData
   return(
     <h2 className={style.textStrong} style={{textAlign: alignment, marginTop: 30 +'px', marginBottom: 30 +'px'}}>
       <div className={titleStyles.boxedLetter}>{boxedLetter}</div> 
-  {" "}{beforeColored}<p className={titleStyles.blueText} >{colored}</p>{afterColored}
+      {beforeColored}<p className={titleStyles.blueText} style={{background: `url(${backURL}) no-repeat`, backgroundPosition: 'left bottom'}}>{colored}</p>{afterColored}
     </h2>
   )
 }

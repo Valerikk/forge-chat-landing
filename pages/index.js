@@ -7,7 +7,7 @@ import Main from '../modules/main/components/Main';
 import Reasons from '../modules/reasons/components/reasons';
 import Email from '../modules/email/components/Email';
 import Customitization from '../modules/customization/components/Customization';
-import Integration from '../modules/integration/components/Integartion';
+import Integration from '../modules/integration/components/Integration';
 import Crm from '../modules/crm/components/crm';
 import Direct from '../modules/direct/components/Direct';
 import Packs from '../modules/packs/components/Packs';
@@ -23,7 +23,7 @@ function Home({t}) {
     return (
     <React.Fragment>
      <Head>
-      <meta charset="utf-8"/>
+      <meta charSet="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <link href="./assets/fonts/Gilroy/stylesheet.css" rel="stylesheet"></link>
     </Head> 

@@ -13,6 +13,7 @@ function Reasons({t}){
               <ReasonsTextCard
                 reasonsKey="RIGHT_CHOISE"
                 t={t}
+                backURL="/assets/images/reason_images/underline.png"
               />
             </div>
              <div className="col-md-4">

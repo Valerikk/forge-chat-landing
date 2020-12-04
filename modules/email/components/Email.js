@@ -1,6 +1,10 @@
 import style from '../services/email.module.scss';
+import EmailText from './EmailText';
+import { withTranslation } from '../../../i18n';
+import PropTypes from 'prop-types';
+import EmailForm from './EmailForm';
 
-export default function Email(){
+function Email({t}){
   return(
     <React.Fragment>
       <div className={style.email}>
@@ -10,19 +14,16 @@ export default function Email(){
             style={{ "padding-top": 70 + "px", "padding-bottom": 30 + "px" }}
           >
             <div className="col-md-4">
-              <h2 className={style.title}>Start engage with your customer 24/7</h2>
-              <p className={style.text}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor{" "}
-              </p>
+              <EmailText
+                t={t}
+                reasonsKey="TEXT"
+              />
             </div>
             <div className="col-md-6">
-              <div className={style.form}>
-                <input type="email" id="input" className={style.input} />
-                <button type="submit" className={style.submit}>
-                  <p className={style.buttonText}>Get started</p>
-                </button>
-              </div>
+              <EmailForm
+                t={t}
+                reasonsKey="FORM"
+              />
             </div>
           </div>
         </div>
@@ -30,3 +31,12 @@ export default function Email(){
     </React.Fragment>
   )
 }
+Email.getInitialProps = async () => ({
+  namespacesRequired: ['common'],
+})
+
+Email.propTypes = {
+  t: PropTypes.func.isRequired,
+}
+
+export default withTranslation('common')(Email)

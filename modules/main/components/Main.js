@@ -1,11 +1,17 @@
 import styles from '../services/main.module.scss';
-export default function Main(){
+import MainTitle from './MainTitle';
+import MainText from './MainText';
+import MainButtons from './MainButtons';
+import { withTranslation } from '../../../i18n';
+import PropTypes from 'prop-types'
+import MainQuestions from './MainQuestion';
+
+function Main({t}){
   return(
-    <React.Fragment>
       <div className={styles.main}>
         <div className="container">
           <img
-            className={styles["second-background"]}
+            className={styles.secondBackground}
             src="assets/images/main_images/screens.png"
           />
           <div className="row">
@@ -18,43 +24,46 @@ export default function Main(){
           </div>
           <div className="row">
             <div className="col-md-6">
-              <h2 className={styles["first-text"]}>
-                Engage your customers with a{" "}
-                <div className="conversation-text">conversations</div>
-              </h2>
+              <MainTitle
+                t={t}
+                reasonsKey="TITLE"
+              />
             </div>
           </div>
           <div className="row">
             <div className="col-md-5">
-              <p className={styles["under-first-text"]}>
-                Helping your customers quickly, with real and smart responses.
-              </p>
+              <MainText
+                t={t}
+                reasonsKey="TEXT"
+              />
             </div>
           </div>
           <div className="row">
             <div className="col-md-4">
-              <button className={styles["try-button"]}>Try for free</button>
-              <button className={styles["play"]}>
-                <img
-                  className={styles["play-img"]}
-                  src="assets/images/main_images/play button.svg"
-                  alt="text"
-                />
-              </button>
+              <MainButtons
+                t={t}
+                reasonsKey="BUTTON"
+              />
             </div>
           </div>
           <div className="row">
             <div className="col-md-5">
-              <p className={styles["guestion-under-button"]}>
-                Already have an account?
-                <a href="#" className={styles["sign-link"]}>
-                  Sign in
-                </a>
-              </p>
+             <MainQuestions
+              t={t}
+              reasonsKey="QUESTION"
+             />
             </div>
           </div>
         </div>
       </div>
-    </React.Fragment>
   )
 }
+Main.getInitialProps = async () => ({
+  namespacesRequired: ['common'],
+})
+
+Main.propTypes = {
+  t: PropTypes.func.isRequired,
+}
+
+export default withTranslation('common')(Main)

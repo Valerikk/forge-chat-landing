@@ -15,6 +15,7 @@ function Customitization({t}){
                     reasonsKey="CUSTOMIZE_WEBSITE"
                     t={t}
                     alignment="center"
+                    backURL="/assets/images/customization_images/underline.png"
                   />
             </div>
             <div className="customization-image">

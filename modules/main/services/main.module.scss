@@ -6,27 +6,30 @@
   font-family: Gilroy;
   font-weight: normal;
 }
-.first-text {
+.firstText {
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   color: #FFFFFF;
 }
-.conversation-text{
+.blueText{
   color: rgba(4, 207, 253, 1);
+  background: url('/assets/images/main_images/underline.png') no-repeat;
+  background-position: left bottom;
+  padding-bottom: 10px;
 }
 .logo{
   width: 186px;
   height: 62px;
 }
-.second-background{
+.secondBackground{
   position: absolute;
   width: 889.14px;
   height: 938.94px;
-  left: 709.27px;
+  left: 50%;
   top: -169.87px;
 }
-.under-first-text{
+.underText{
   width: 397px;
   height: 68px;
   font-weight: 500;
@@ -34,7 +37,7 @@
   line-height: 130.2%;
   color: #FFFFFF;
 }
-.try-button{
+.tryButton{
   width: 213px;
   height: 63px;
   background: #03CCF8;
@@ -48,8 +51,7 @@
   color: #FFEBEB;
   border: 0;
 }
-
-.guestion-under-button{
+.guestion{
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
@@ -59,7 +61,7 @@
   height: 19px;
   color: #FFFFFF;
 }
-.sign-link{
+.signLink{
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
@@ -68,7 +70,7 @@
   height: 19px;
   color: #FFFFFF;
 }
-.sign-link:hover{
+.signLink:hover{
   cursor: pointer;
 }
 .play{
@@ -76,6 +78,6 @@
   border: none;
   border-radius: 50%;
 }
-.play-img{
+.playImg{
   border: none;
 }

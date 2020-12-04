@@ -1,6 +1,7 @@
 import style from "../services/Packs.module.scss";
 import PrisePack from "./PricePack";
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
+import DescribingText from '../../common/components/DescribingText';
 import { withTranslation } from '../../../i18n';
 import PropTypes from 'prop-types';
 
@@ -55,7 +56,6 @@ function Packs({t}) {
         "Lorem ipsum ",
         "Lorem ipsum ",
       ],
-      isPopular: false,
     }
   ];
   return (
@@ -68,14 +68,17 @@ function Packs({t}) {
                 reasonsKey="PRISING"
                 t={t}
                 alignment="center"
+                backURL="/assets/images/packs_images/underline.png"
               />
             </div>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4">
-              <p className={style.text}>
-                Choose a plan that works best for you and your team.
-              </p>
+                <DescribingText
+                  reasonsKey="PACKS_TEXT"
+                  t={t}
+                  aligment="center"
+                />
             </div>
           </div>
           <div class="row justify-content-center">
