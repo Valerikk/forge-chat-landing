@@ -1,8 +1,7 @@
 .packs{
   font-family: Gilroy;
   font-style: normal;
-  height: 850px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
   background: url('/assets/images/packs_images/Subtract.svg') no-repeat;
   background-position:  bottom;
 }
@@ -21,9 +20,10 @@
   letter-spacing: 0.02em;
 }
 .table{
-  height: 470px;
   width: 1200px;
-  background: url('/assets/images/packs_images/table_back.svg') no-repeat;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  margin-top: 70px;
 }
 .chooseButton{
   width: 207px;
@@ -36,6 +36,7 @@
   background: #DAE6EC;
   border-radius: 10px;
   border:0;
+  margin-bottom: 20px;
 }
 .blueButton{
   width: 207px;
@@ -49,73 +50,3 @@
   border-radius: 10px;
   border:0;
 }
-/*<div class="row table" style={{ "margin-top": "60px" }}>
-            <div class="col-md-3 pack">
-              <h1 class="price">
-                15$<p class="per-month">/ month</p>
-              </h1>
-              <h1 class="pack-name">Intro</h1>
-              <p class="pack-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              </p>
-              <ul class="packs-ul">
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-              </ul>
-              <button class="choose-pack-button">Choose plan</button>
-            </div>
-            <div class="col-md-3 pack">
-              <h1 class="price">
-                39$<p class="per-month">/ month</p>
-              </h1>
-              <h1 class="pack-name">Base</h1>
-              <p class="pack-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              </p>
-              <ul class="packs-ul">
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-              </ul>
-              <button class="choose-pack-button">Choose plan</button>
-            </div>
-            <div class="col-md-3 blue-pack">
-              <div class="most-popular">Most popular</div>
-              <h1 class="price">
-                99$<p class="per-month">/ month</p>
-              </h1>
-              <h1 class="pack-name">Pro</h1>
-              <p class="pack-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              </p>
-              <ul class="packs-ul">
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-              </ul>
-              <button class="choose-blue-pack-button">Choose plan</button>
-            </div>
-            <div class="col-md-3 pack">
-              <h1 class="price">
-                199$<p class="per-month">/ month</p>
-              </h1>
-              <h1 class="pack-name">Interprise</h1>
-              <p class="pack-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              </p>
-              <ul class="packs-ul">
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-                <li>Lorem ipsum </li>
-              </ul>
-              <button class="choose-pack-button">Choose plan</button>
-            </div>
-          </div>*/

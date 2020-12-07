@@ -17,8 +17,6 @@ import Footer from '../modules/footer/components/Footer';
 import { withTranslation } from '../i18n'
 
 
-
-
 function Home({t}) {
     return (
     <React.Fragment>

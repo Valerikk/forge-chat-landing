@@ -56,6 +56,7 @@ function Packs({t}) {
         "Lorem ipsum ",
         "Lorem ipsum ",
       ],
+      isPopular: false
     }
   ];
   return (
@@ -81,13 +82,13 @@ function Packs({t}) {
                 />
             </div>
           </div>
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
             <div id="buttons" class="packs-buttons">
-              <button class="button">Monthly</button>
-              <button class="button">Yearly</button>
+              <button className="button">Monthly</button>
+              <button className="button">Yearly</button>
             </div>
           </div>
-          <div className="row table">
+          <div className={`row ${style.table}`}>
           {prices.map((price) => (
             <PrisePack
             price={price.price}

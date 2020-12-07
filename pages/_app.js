@@ -1,10 +1,8 @@
 import 'bootstrap/dist/css/bootstrap-grid.min.css'
-import '../styles/packs.css';
-import '../styles/comments.css';
-import '../styles/bodyStyle.css'
+import '../styles/bodyStyle.css';
 import Home from '.';
 import { appWithTranslation } from '../i18n'
-
+import './index.scss'
   
 import App from 'next/app'
 

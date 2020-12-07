@@ -5,6 +5,7 @@ import MainButtons from './MainButtons';
 import { withTranslation } from '../../../i18n';
 import PropTypes from 'prop-types'
 import MainQuestions from './MainQuestion';
+import Navigation from '../../navigation/components/navigation';
 
 function Main({t}){
   return(
@@ -13,15 +14,8 @@ function Main({t}){
           <img
             className={styles.secondBackground}
             src="assets/images/main_images/screens.png"
-          />
-          <div className="row">
-            <div className="col-md-2">
-              <img
-                className={styles["logo"]}
-                src="assets/images/main_images/logo.svg"
-              />
-            </div>
-          </div>
+          />        
+            <Navigation/>
           <div className="row">
             <div className="col-md-6">
               <MainTitle
