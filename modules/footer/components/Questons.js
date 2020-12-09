@@ -1,4 +1,4 @@
-import style from '../services/Questions.module.scss';
+import style from './Questions.module.scss';
 import { withTranslation } from '../../../i18n';
 import PropTypes from 'prop-types';
 import QuestionsText from './QuestionsText';

@@ -1,4 +1,4 @@
-import style from '../services/email.module.scss';
+import style from './email.module.scss';
 import EmailText from './EmailText';
 import { withTranslation } from '../../../i18n';
 import PropTypes from 'prop-types';

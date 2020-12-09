@@ -1,5 +1,5 @@
 import ReasonCard from "../../common/components/ReasonsCard";
-import style from "../services/direct.module.scss";
+import style from "./direct.module.scss";
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
 import DescribingText from '../../common/components/DescribingText';
 import { withTranslation } from '../../../i18n';

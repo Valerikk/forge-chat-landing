@@ -1,4 +1,4 @@
-import style from '../services/integration.module.scss';
+import style from './integration.module.scss';
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
 import DescribingText from '../../common/components/DescribingText';
 import { withTranslation } from '../../../i18n';

@@ -1,4 +1,4 @@
-import style from '../services/Questions.module.scss';
+import style from './Questions.module.scss';
 
 const getReasons = (key, t ) => {
     return {

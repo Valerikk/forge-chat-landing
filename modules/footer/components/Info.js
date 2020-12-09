@@ -1,4 +1,4 @@
-import style from '../services/info.module.scss';
+import style from './info.module.scss';
 
 
 export default function Footer(){

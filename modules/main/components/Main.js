@@ -1,21 +1,21 @@
-import styles from '../services/main.module.scss';
+import styles from './main.module.scss';
 import MainTitle from './MainTitle';
 import MainText from './MainText';
 import MainButtons from './MainButtons';
 import { withTranslation } from '../../../i18n';
 import PropTypes from 'prop-types'
 import MainQuestions from './MainQuestion';
-import Navigation from '../../navigation/components/navigation';
+import Navigation from "../../navigation/components/Navigation";
+
 
 function Main({t}){
   return(
       <div className={styles.main}>
         <div className="container">
-          <img
+          {/* <img
             className={styles.secondBackground}
             src="assets/images/main_images/screens.png"
-          />        
-            <Navigation/>
+          /> */}
           <div className="row">
             <div className="col-md-6">
               <MainTitle

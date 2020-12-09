@@ -1,4 +1,4 @@
-import style from "../services/calls.module.scss";
+import style from "./calls.module.scss";
 import ReasonCard from "../../common/components/ReasonsCard";
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
 import DescribingText from '../../common/components/DescribingText';

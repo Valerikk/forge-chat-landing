@@ -1,5 +1,5 @@
 import ReasonCard from "../../common/components/ReasonsCard";
-import style from '../services/crm.module.scss';
+import style from './crm.module.scss';
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
 import DescribingText from '../../common/components/DescribingText';
 import { withTranslation } from '../../../i18n';
@@ -63,7 +63,7 @@ function Crm({t}){
                   t={t}
                 />
             </div>
-            <div class="col-md-4">
+            <div className="col-md-4">
                 <ReasonCard 
                   linkToIcon="/assets/images/crm_images/icon_4.png"
                   reasonsKey="CRM_BLOCK4"

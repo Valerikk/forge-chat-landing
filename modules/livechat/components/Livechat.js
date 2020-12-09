@@ -1,4 +1,4 @@
-import style from '../services/livechat.module.scss';
+import style from './livechat.module.scss';
 import ReasonCard from '../../common/components/ReasonsCard'
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
 import DescribingText from '../../common/components/DescribingText';
@@ -36,7 +36,7 @@ function Livechat({t}){
                   t={t}
                 />
               </div>
-              <div class="col-md-5">
+              <div className="col-md-5">
                 <ReasonCard 
                   linkToIcon="/assets/images/livechat_images/smile_icon.png"
                   reasonsKey="CUSTOMER_CARE2"

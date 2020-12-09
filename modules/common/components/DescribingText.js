@@ -1,4 +1,4 @@
-import style from "../services/DescribingText.module.scss"
+import style from "./DescribingText.module.scss"
 
 const getReasons = (key, t ) => {
     return {

@@ -1,6 +1,6 @@
 import Info from "./Info";
 import Questions from "./Questons";
-import style from "../services/Footer.module.scss"
+import style from "./Footer.module.scss"
 import { withTranslation } from '../../../i18n';
 import PropTypes from 'prop-types';
 

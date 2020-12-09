@@ -1,4 +1,4 @@
-import chooseButton from '../services/Packs.module.scss';
+import chooseButton from './Packs.module.scss';
 
 export default function ChooseButton(){
   return(

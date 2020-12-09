@@ -1,4 +1,4 @@
-import style from "../services/Packs.module.scss";
+import style from "./Packs.module.scss";
 import PrisePack from "./PricePack";
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
 import DescribingText from '../../common/components/DescribingText';
@@ -83,7 +83,7 @@ function Packs({t}) {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div id="buttons" class="packs-buttons">
+            <div id="buttons" className="packs-buttons">
               <button className="button">Monthly</button>
               <button className="button">Yearly</button>
             </div>

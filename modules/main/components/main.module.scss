@@ -1,8 +1,7 @@
 
 .main{
   height: 1000px;
-  background: url('/assets/images/main_images/Background.svg') no-repeat  center 105%;
-  background-position: center 105%;
+  background: url('/assets/images/main_images/Background.png') no-repeat 15% 130%;
   font-family: Gilroy;
   font-weight: normal;
 }
@@ -11,6 +10,8 @@
   font-size: 60px;
   line-height: 72px;
   color: #FFFFFF;
+  margin-bottom: 0;
+  padding-top: 100px;
 }
 .blueText{
   color: rgba(4, 207, 253, 1);
@@ -26,8 +27,8 @@
   position: absolute;
   width: 889.14px;
   height: 938.94px;
-  left: 50%;
-  top: -169.87px;
+  left: 42%;
+  top: -150px;
 }
 .underText{
   width: 397px;
@@ -36,6 +37,7 @@
   font-size: 26px;
   line-height: 130.2%;
   color: #FFFFFF;
+  margin-bottom: 70px;
 }
 .tryButton{
   width: 213px;

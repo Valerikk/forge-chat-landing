@@ -1,4 +1,4 @@
-import styles from '../services/ReasonsCard.module.scss';
+import styles from './ReasonsCard.module.scss';
 
 const getReasons = (key, t ) => {
   return {

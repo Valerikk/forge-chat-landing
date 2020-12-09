@@ -1,0 +1,90 @@
+.logo {
+  width: 186px;
+  height: 62px;
+}
+.navList {
+  list-style: none;
+  font-family: Gilroy;
+  font-style: normal;
+  display: flex;
+  margin: 20px;
+
+  li {
+    width: 33%;
+
+    button {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 115.8%;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color: #ffffff;
+      display: inline-block;
+      background: transparent;
+      border: none;
+    }
+  }
+}
+
+.header {
+    z-index: 99999;
+    height: 120px;
+    display: flex;
+    align-items: center;
+  img {
+    width: 186px;
+    height: 62px;
+  }
+
+  ul {
+    list-style: none;
+    font-family: Gilroy;
+    font-style: normal;
+    display: flex;
+    margin: 20px;
+
+    li {
+      width: 33%;
+
+      button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 115.8%;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        // color: #ffffff;
+        display: inline-block;
+        background: transparent;
+        border: none;
+      }
+    }
+  }
+}
+
+.uiOne {
+    position: absolute;
+    button {
+
+        color: white;
+    }
+}
+
+.uiSecond {
+
+
+  transition: all 0.5s;
+
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-color: white;
+    button {
+        color: black;
+    }
+}
+
+.hideHeader {
+    opacity: 0;
+    left: -250px;
+}

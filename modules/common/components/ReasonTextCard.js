@@ -1,5 +1,5 @@
-import style from '../services/ReasonsTextCard.module.scss';
-import titleStyles from '../services/TitleStyles.module.scss';
+import style from './ReasonsTextCard.module.scss';
+import titleStyles from './TitleStyles.module.scss';
 
 const getReasons = (key, t ) => {
   return {

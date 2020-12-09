@@ -1,6 +1,6 @@
 import ReasonCard from '../../common/components/ReasonsCard';
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
-import style from '../services/reasons.module.scss';
+import style from './reasons.module.scss';
 import { withTranslation } from '../../../i18n';
 import PropTypes from 'prop-types';
 

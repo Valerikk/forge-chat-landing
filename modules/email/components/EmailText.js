@@ -1,4 +1,4 @@
-import style from '../services/email.module.scss';
+import style from './email.module.scss';
 
 const getReasons = (key, t ) => {
     return {

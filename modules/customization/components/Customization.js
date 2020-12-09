@@ -1,5 +1,5 @@
 import ReasonCard from '../../common/components/ReasonsCard';
-import style from '../services/customitization.module.scss';
+import style from './customitization.module.scss';
 import ReasonsTextCard from '../../common/components/ReasonTextCard';
 import { withTranslation } from '../../../i18n';
 import PropTypes from 'prop-types';
@@ -46,7 +46,7 @@ function Customitization({t}){
                   t={t}
                 />
             </div>
-            <div class="col-md-4">
+            <div className="col-md-4">
                 <ReasonCard 
                   linkToIcon="/assets/images/customization_images/customization icon_4.png"
                   reasonsKey="CUSTOM_BLOCK4"

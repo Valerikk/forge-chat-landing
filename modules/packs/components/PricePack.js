@@ -1,5 +1,5 @@
 import ChooseButton from './ChooseButton'
-import style from '../services/PricePack.module.scss'
+import style from './PricePack.module.scss'
 
 
 export default function PrisePack({price, name, text, list, isPopular}){
