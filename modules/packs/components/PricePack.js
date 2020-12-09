@@ -2,11 +2,11 @@ import ChooseButton from './ChooseButton'
 import style from './PricePack.module.scss'
 
 
-export default function PrisePack({price, name, text, list, isPopular}){
+export default function PrisePack({price, rate, name, text, list, isPopular}){
   return(
       <div className={`col-md-3 ${style.cardPrice} ${!isPopular && style.pricePack} ${isPopular && style.bluePack}`}>
         <div>
-        <h2 className={style.price}>{price}<div className={style.perMonth}>/ month</div></h2>
+        <h2 className={style.price}>{price}<div className={style.perMonth}>/ {rate}</div></h2>
         <p className={style.name}>{name}</p>
         <p className={style.text}>{text}</p>
         <ul className={style.list}>
@@ -18,7 +18,7 @@ export default function PrisePack({price, name, text, list, isPopular}){
         </ul>
         </div>
         <ChooseButton
-          blue={isPopular && true}
+          isBlue={isPopular}
         />
       </div>
   )

@@ -22,12 +22,13 @@
       display: inline-block;
       background: transparent;
       border: none;
+      font-family: Gilroy;
+      font-style: normal;
     }
   }
 }
 
 .header {
-    z-index: 99999;
     height: 120px;
     display: flex;
     align-items: center;
@@ -63,6 +64,7 @@
 
 .uiOne {
     position: absolute;
+    z-index: 100;
     button {
 
         color: white;
@@ -70,8 +72,7 @@
 }
 
 .uiSecond {
-
-
+  z-index: 50;
   transition: all 0.5s;
 
     position: fixed;

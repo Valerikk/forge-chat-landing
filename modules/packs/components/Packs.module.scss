@@ -38,7 +38,7 @@
   border:0;
   margin-bottom: 20px;
 }
-.blueButton{
+.blueChooseButton{
   width: 207px;
   height: 43px;
   font-weight: bold;
@@ -49,4 +49,38 @@
   background: #03CCF8;
   border-radius: 10px;
   border:0;
+  margin-bottom: 20px;
+}
+/**********************************************
+***************PackButton**********************
+**********************************************/
+.buttonBlock{
+  width: 220px;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+.choiseButton{
+  height: 44px;
+  width: 110px;
+  border-radius: 22px;
+  border: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.833333px;
+}
+.choiseBlueButton{
+  height: 44px;
+  width: 110px;
+  border-radius: 22px;
+  border: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #2152FF;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.833333px;
 }

@@ -1,7 +1,7 @@
-import chooseButton from './Packs.module.scss';
+import style from './Packs.module.scss';
 
-export default function ChooseButton(){
+export default function ChooseButton({isBlue}){
   return(
-    <button className={chooseButton.chooseButton}>Choose plan</button>
+    <button className={isBlue ? style.blueChooseButton : style.chooseButton}>Choose plan</button>
   )
 }
