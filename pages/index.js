@@ -11,11 +11,11 @@ import Integration from "../modules/integration/components/Integration";
 import Crm from "../modules/crm/components/crm";
 import Direct from "../modules/direct/components/Direct";
 import Packs from "../modules/packs/components/Packs";
-import Comments from "../modules/comments/components/Comments";
 import Footer from "../modules/footer/components/Footer";
 import Navigation from "../modules/navigation/components/Navigation";
 import { withTranslation } from "../i18n";
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState} from "react";
+import Slider from "../modules/comments/components/Comments";
 function Home({ t }) {
   const [hideSecondHeader, setHideSecondHeader] = useState(true);
   const ref = useRef(null);
@@ -65,7 +65,7 @@ function Home({ t }) {
 
         <Direct />
 
-        <Comments />
+        <Slider />
 
         <Footer />
       </div>

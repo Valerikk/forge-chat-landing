@@ -1,6 +1,7 @@
 import style from "./navigation.module.scss";
 import { NavItems } from "./NavItems";
 import MainButtons from "../../main/components/MainButtons";
+import Link from "next/link";
 
 export default function Navigation({ t, isMainHeader = true, hide = false }) {
   const Go = (url) => {
@@ -24,7 +25,9 @@ export default function Navigation({ t, isMainHeader = true, hide = false }) {
             <ul>
               {NavItems.map((item) => (
                 <li key={item.title}>
-                  <button onClick={() => Go(item.url)}>{item.title}</button>
+                  <Link href={item.url}>
+                    <button>{item.title}</button>                
+                  </Link>
                 </li>
               ))}
             </ul>

@@ -11,7 +11,7 @@ function Email({t}){
         <div className="container">
           <div
             className="row justify-content-center align-items-center"
-            style={{ "padding-top": 70 + "px", "padding-bottom": 30 + "px" }}
+            style={{ paddingTop: 70 + "px", paddingBottom: 30 + "px" }}
           >
             <div className="col-md-4">
               <EmailText

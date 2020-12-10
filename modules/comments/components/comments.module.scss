@@ -22,11 +22,21 @@
   list-style: none;
   display: inline-block;
 }
-.slider{
-  overflow: hidden;
-  width: 920px;
+.comment{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 .comments button{
   background: 0;
   border: 0;
+}
+.slide{
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+.slide.active{
+  opacity: 1;
+  transition-duration: 1s;
 }

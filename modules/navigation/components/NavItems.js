@@ -1,14 +1,14 @@
 export const NavItems = [
     {
         title:"Features",
-        url:"#",
+        url:"/Features",
     },
     {
         title:"Integration",
-        url:"#",
+        url:"/Integration",
     },
     {
         title:"Pricing",
-        url:"#",
+        url:"/Pricing",
     }
 ]
