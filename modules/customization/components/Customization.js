@@ -9,8 +9,8 @@ function Customitization({t}){
     <React.Fragment>
       <div className={style.customization}>
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-11">
+          <div className={`row justify-content-center ${style.title}`}>
+            <div className='col-lg-11'>
               <ReasonsTextCard
                     reasonsKey="CUSTOMIZE_WEBSITE"
                     t={t}
@@ -18,7 +18,7 @@ function Customitization({t}){
                     backURL="/assets/images/customization_images/underline.png"
                   />
             </div>
-            <div className="customization-image">
+            <div className={style.img}>
               <img src="/assets/images/customization_images/customization.svg" />
             </div>
           </div>

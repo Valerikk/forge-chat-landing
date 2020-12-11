@@ -2,28 +2,16 @@
   font-family: Gilroy;
   font-style: normal;
   padding-bottom: 100px;
-  background: url('/assets/images/packs_images/Subtract.svg') no-repeat;
-  background-position:  bottom;
-}
-.title{
-  font-weight: 600;
-  font-size: 44px;
-  line-height: 54px;
-  text-align: center;
-  letter-spacing: 0.02em;
-}
-.text{
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  letter-spacing: 0.02em;
+  background: url('/assets/images/packs_images/Subtract.svg') no-repeat bottom;
 }
 .table{
   width: 1200px;
   background-color: #FFFFFF;
   border-radius: 30px;
   margin-top: 70px;
+}
+.packsContainer{
+  background: url('/assets/images/packs_images/money.png') no-repeat 5% 34%;;
 }
 .chooseButton{
   width: 207px;
@@ -68,6 +56,7 @@
   font-size: 16px;
   line-height: 19px;
   background-color: #ffffff;
+  color: #2152FF;
   text-align: center;
   letter-spacing: 0.833333px;
 }

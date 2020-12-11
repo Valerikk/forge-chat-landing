@@ -9,8 +9,8 @@ function Crm({t}){
   return (
     <React.Fragment>
       <div className={style.crm}>
-        <div className="container">
-          <div className="row justify-content-center">
+        <div className={`container ${style.crmContainer}`}>
+          <div className={`row justify-content-center ${style.title}`}>
             <div className="col-lg-10">
               <ReasonsTextCard
                   reasonsKey="OTHER_FEATURES"
@@ -20,7 +20,7 @@ function Crm({t}){
               />
             </div>
           </div>
-          <div className="row justify-content-center">
+          <div className={`row justify-content-center`}>
             <div className="col-lg-5">
               <ReasonsTextCard
                     reasonsKey="FORGE_CRM"

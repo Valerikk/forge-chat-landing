@@ -1,3 +1,9 @@
 body{
     background-color: #F6F9FF;
 }
+button:focus{
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+}

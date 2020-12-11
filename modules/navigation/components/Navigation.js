@@ -4,20 +4,12 @@ import MainButtons from "../../main/components/MainButtons";
 import Link from "next/link";
 
 export default function Navigation({ t, isMainHeader = true, hide = false }) {
-  const Go = (url) => {
-    alert(url);
-  };
-  const ScrollTop = () => {
-    window.scrollTo(0, 0);
-  };
-
   return (
     <div className={`${style.header} ${isMainHeader ? style.uiOne : style.uiSecond} ${hide && style.hideHeader} col-md-12`}>
       <div className="container">
         <div className="row">
           <div className="col-md-3">
             <img
-              onClick={() => ScrollTop()}
               src={isMainHeader ? "assets/images/main_images/logo.svg": "assets/images/main_images/logoBlack.png" }
             />
           </div>

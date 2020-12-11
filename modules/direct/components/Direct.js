@@ -12,7 +12,7 @@ function Direct({t}){
       <div className={style.direct}>
         <div className="container">
           <div className="row justify-content-center">
-            <img src="/assets/images/plus.svg" />
+            <img src="/assets/images/plus.png" />
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-5">

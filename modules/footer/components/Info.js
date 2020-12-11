@@ -1,27 +1,19 @@
+import FooterTitle from './FooterTitle';
 import style from './info.module.scss';
+import Product from './Product';
+import { withTranslation } from '../../../i18n';
+import PropTypes from 'prop-types';
 
-
-export default function Footer(){
+ function Footer({t}){
   return(
     <React.Fragment>
       <div className={`container ${style.footer}`}>
         <div className="row">
-          <div className="col-md-3">
-            <img src="/assets/images/footer_images/LogoChat.png"></img>
-            <p className={style.forgeChat}>Forge:chat</p>
-          </div>
-          <div className="col-md-3">
-            <div className={style.title}>Product</div>
-              <div>
-                <ul className={style.list}>
-                  <li><a>How it works</a></li>
-                  <li><a>Pricing</a></li>
-                  <li><a>Customization</a></li>
-                  <li><a>Integration</a></li>
-                  <li><a>Documentation</a></li>
-                </ul>
-              </div>
-          </div>
+          <FooterTitle/>
+          {/*<Product
+           reasonsKey={"PRODUCT"}
+           t={t}
+          />*/}
           <div className="col-md-3">
             <div className={style.title}>Company</div>
               <div>
@@ -58,3 +50,12 @@ export default function Footer(){
     </React.Fragment>
   )
 }
+Footer.getInitialProps = async () => ({
+  namespacesRequired: ['common'],
+})
+
+Footer.propTypes = {
+  t: PropTypes.func.isRequired,
+}
+
+export default withTranslation('common')(Footer)

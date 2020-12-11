@@ -258,5 +258,27 @@
     "FORM":{
       "buttonText":"Send message"
     }
+  },
+  "INFO":{
+    "PRODUCT":{
+      "title":"Product",
+      "products":[
+        "How it works",
+        "Pricing",
+        "Customization",
+        "Integration",
+        "Documentation"
+      ]
+    },
+    "COMPANY":{
+      "title":"Company",
+      "products":[
+        "About us",
+        "Blog",
+        "Contact us",
+        "Our products",
+        "Terms and Conditions"
+      ]
+    }
   }
 }

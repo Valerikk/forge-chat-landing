@@ -31,6 +31,13 @@
   list-style: none;
   padding-left: 0;
 }
+.noPopular{
+  display: none;
+}
+.popular{
+  float: right;
+  margin-top: 10px;
+}
 .bluePack{
   background: linear-gradient(180.9deg, #0674E4 -63.78%, #031F7D 115.4%);
   box-shadow: 0px 20px 30px rgba(25, 27, 27, 0.2);

@@ -2,27 +2,24 @@
   position: relative;
   font-family: Gilroy;
   font-weight: normal;
+  padding-bottom: 170px;
+  background: url('/assets/images/comments_images/background.png') no-repeat;
+  background-position: center bottom;
 }
 .title{
-  font-weight: 600;
-  font-size: 44px;
-  line-height: 54px;
-  text-align: center;
-  letter-spacing: 0.02em;
+  background: url('/assets/images/comments_images/underline.png') no-repeat ;
+  background-position: bottom;
+  margin-bottom: 30px;;
 }
-.text{
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  letter-spacing: 0.02em;
+.slider{
+  margin-top: 70px;
 }
 .comment li{
   text-align: center;
   list-style: none;
   display: inline-block;
 }
-.comment{
+.sliderBlock{
   display: flex;
   position: relative;
   justify-content: center;
@@ -39,4 +36,10 @@
 .slide.active{
   opacity: 1;
   transition-duration: 1s;
+}
+.nextButton{
+  background: url('/assets/images/comments_images/nextArrow.png');
+}
+.prevButton{
+  background: url('/assets/images/comments_images/prevArrow.png');
 }
