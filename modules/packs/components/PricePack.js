@@ -6,17 +6,16 @@ export default function PrisePack({price, rate, name, text, list, isPopular}){
   return(
       <div className={`col-md-3 ${style.cardPrice} ${!isPopular && style.pricePack} ${isPopular && style.bluePack}`}>
         <div>
-        <img 
+        <div 
           className={!isPopular ? style.noPopular : style.popular}
-          src={'/assets/images/packs_images/popular.png'}
-          />
+        >MOST POPULAR</div>
         <h2 className={style.price}>{price}<div className={style.perMonth}>/ {rate}</div></h2>
         <p className={style.name}>{name}</p>
         <p className={style.text}>{text}</p>
         <ul className={style.list}>
           {
             list.map((item, i) => (
-            <li key={i}><img src="../assets/images/packs_images/check-circle-1.png"></img>{item}</li>
+            <li key={i}>{item}</li>
             ))
           }
         </ul>

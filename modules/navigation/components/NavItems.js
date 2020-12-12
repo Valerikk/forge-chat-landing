@@ -1,10 +1,10 @@
 export const NavItems = [
     {
-        title:"Features",
+        title:"Feautures",
         url:"/Features",
     },
     {
-        title:"Integration",
+        title:"Integrations",
         url:"/Integration",
     },
     {

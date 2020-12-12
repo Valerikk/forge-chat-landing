@@ -38,7 +38,10 @@ function Crm({t}){
                 />
             </div>
           </div>
-          <img src="/assets/images/crm_images/crm_img.svg" />
+          <img 
+            src="/assets/images/crm_images/crm_img.svg" 
+            style={{marginLeft: -120 + 'px'}}
+          />
           <div className="row justify-content-center">
             <div className="col-md-4">
                 <ReasonCard 

@@ -9,7 +9,7 @@ function Reasons({t}){
   <div className={style.reasons}>
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-4 mt-4">
+            <div className="col-md-4">
               <ReasonsTextCard
                 reasonsKey="RIGHT_CHOISE"
                 t={t}

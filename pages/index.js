@@ -14,7 +14,7 @@ import Packs from "../modules/packs/components/Packs";
 import Footer from "../modules/footer/components/Footer";
 import Navigation from "../modules/navigation/components/Navigation";
 import { withTranslation } from "../i18n";
-import { useRef, useState} from "react";
+import { useRef, useState } from "react";
 import Slider from "../modules/comments/components/Comments";
 function Home({ t }) {
   const [hideSecondHeader, setHideSecondHeader] = useState(true);
@@ -25,7 +25,7 @@ function Home({ t }) {
     } else {
       setHideSecondHeader(true);
     }
-  }
+  };
 
   return (
     <React.Fragment>
@@ -38,12 +38,11 @@ function Home({ t }) {
         ></link>
       </Head>
 
-      
       <Navigation t={t} />
       <div onWheel={scrollHandler} ref={ref}>
         <Main />
 
-        <Navigation t={t} isMainHeader={false} hide={hideSecondHeader}/>
+        <Navigation t={t} isMainHeader={false} hide={hideSecondHeader} />
 
         <Reasons t={t} />
 

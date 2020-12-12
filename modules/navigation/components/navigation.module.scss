@@ -7,7 +7,7 @@
   font-family: Gilroy;
   font-style: normal;
   display: flex;
-  margin: 20px;
+  margin: 20px 0 0 0;
 
   li {
     width: 33%;
@@ -22,8 +22,6 @@
       display: inline-block;
       background: transparent;
       border: none;
-      font-family: Gilroy;
-      font-style: normal;
     }
   }
 }
@@ -39,8 +37,6 @@
 
   ul {
     list-style: none;
-    font-family: Gilroy;
-    font-style: normal;
     display: flex;
     margin: 20px;
 
@@ -49,11 +45,12 @@
 
       button {
         font-weight: 500;
-        font-size: 16px;
+        font-size: 18px;
+        font-style: normal;
         line-height: 115.8%;
         letter-spacing: 0.02em;
+        font-family: Gilroy;
         text-transform: capitalize;
-        // color: #ffffff;
         display: inline-block;
         background: transparent;
         border: none;

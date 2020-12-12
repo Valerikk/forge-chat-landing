@@ -13,7 +13,7 @@ export default function Navigation({ t, isMainHeader = true, hide = false }) {
               src={isMainHeader ? "assets/images/main_images/logo.svg": "assets/images/main_images/logoBlack.png" }
             />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-7">
             <ul>
               {NavItems.map((item) => (
                 <li key={item.title}>
@@ -25,7 +25,7 @@ export default function Navigation({ t, isMainHeader = true, hide = false }) {
             </ul>
           </div>
           {!isMainHeader && (
-            <div className="col-md-3">
+            <div className="col-md-2">
               <MainButtons t={t} reasonsKey="BUTTON" />
             </div>
           )}

@@ -31,15 +31,16 @@
 }
 .input{
   font-weight: 500;
-  font-size: 30px;
-  line-height: 48px;
+  font-size: 18px;
+  line-height: 21px;
   letter-spacing: .02em;
   border: none; 
   border-radius: 10px;
   outline: none;
   -webkit-appearance: none;
   width: 350px;
-
+  padding: 30px;
+  padding-right: 0;
 }
 .submit{
   width: 184px;

@@ -13,6 +13,7 @@ export default function MainButtons({reasonsKey, t}) {
   return (
       <div>
         <button className={styles.tryButton}>{text}</button>
+        <div className={styles.buttonBack}></div>
             <button className={styles.play}>
             {/* <img
                 className={styles.playImg}

@@ -33,7 +33,9 @@ function Main({t}){
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4"
+             style={{zIndex: 2}}
+            >
               <MainButtons
                 t={t}
                 reasonsKey="BUTTON"
