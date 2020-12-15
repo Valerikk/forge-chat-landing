@@ -1,14 +1,21 @@
 export const NavItems = [
     {
-        title:"Feautures",
+        title:"NAVBAR.FEACTURES",
         url:"/Features",
     },
     {
-        title:"Integrations",
+        title:"NAVBAR.INTEGRATIONS",
         url:"/Integration",
     },
     {
-        title:"Pricing",
+        title:"NAVBAR.PRICING",
         url:"/Pricing",
     }
 ]
+
+
+// {
+//     "FEACTURES": "Features",
+//     "INTEGRATIONS": "Integrations",
+//     "PRICING": "Pricing"
+//   }

@@ -87,3 +87,8 @@
     left: -250px;
     z-index: -1;
 }
+@media(max-width: 790px){
+  .navItems{
+    display: none;
+  }
+}

@@ -1,7 +1,10 @@
 const path = require('path')
 const { nextI18NextRewrites } = require('next-i18next/rewrites')
 
-const localeSubpaths = {}
+const localeSubpaths = {
+  de: 'de',
+  en: 'en'
+}
 
 module.exports = {
   sassOptions: {
@@ -9,7 +12,10 @@ module.exports = {
   },
   rewrites: async () => nextI18NextRewrites(localeSubpaths),
   publicRuntimeConfig: {
-    localeSubpaths,
+    localeSubpaths: {
+      de: 'de',
+      en: 'en'
+    },
   },
 }
 

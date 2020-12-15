@@ -146,8 +146,8 @@ function Packs({t}) {
               />
             </div>
           </div>
-          <div className="row justify-content-center">
-            <div className="col-lg-4">
+          <div className={`row justify-content-center ${style.describingText}`}>
+            <div className={`col-lg-4`} >
                 <DescribingText
                   reasonsKey="PACKS_TEXT"
                   t={t}

@@ -5,6 +5,9 @@ const path = require('path')
 
 module.exports = new NextI18Next({
   otherLanguages: ['de'],
-  localeSubpaths,
+  localeSubpaths: {
+    de: 'de',
+    en: 'en'
+  },
   localePath: path.resolve('./public/static/locales')
 })

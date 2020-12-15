@@ -1,5 +1,5 @@
 .questions{
-  background: url(/assets/images/question_images/background1.png) no-repeat;
+  background: url('/assets/images/question_images/background1.png') no-repeat;
   background-position: center;
   font-family: Gilroy;
   font-weight: normal;
@@ -31,6 +31,7 @@
   line-height: 19px;
   letter-spacing: 0.02em;
   padding: 13px 0 13px 15px;
+  font-family: Gilroy;
 }
 .emailInput{
   width: 281px;
@@ -43,6 +44,7 @@
   line-height: 19px;
   letter-spacing: 0.02em;
   padding: 13px 0 13px 15px;
+  font-family: Gilroy;
 }
 .areaInput{
   width: 281px;
@@ -77,4 +79,11 @@
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
+}
+@media(max-width: 750px){
+  .questions{
+    height: 800px;
+    background: url('/assets/images/question_images/RectangleMobile2.png') no-repeat;
+  }
+
 }

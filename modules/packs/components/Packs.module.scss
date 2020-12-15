@@ -1,8 +1,9 @@
 .packs{
   font-family: Gilroy;
   font-style: normal;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background: url('/assets/images/packs_images/Subtract.svg') no-repeat bottom;
+  background-size: contain;
 }
 .table{
   width: 1200px;
@@ -10,12 +11,17 @@
   border-radius: 30px;
   margin-top: 70px;
 }
+.describingText{
+  background: url('/assets/images/packs_images/sale.png') no-repeat;
+  background-position: 67% bottom;
+}
 .packsContainer{
   background: url('/assets/images/packs_images/money.png') no-repeat 5% 34%;;
 }
 .chooseButton{
   width: 207px;
   height: 43px;
+  font-family: Gilroy;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
@@ -29,6 +35,7 @@
 .blueChooseButton{
   width: 207px;
   height: 43px;
+  font-family: Gilroy;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
@@ -37,7 +44,8 @@
   background: #03CCF8;
   border-radius: 10px;
   border:0;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
 /**********************************************
 ***************PackButton**********************
@@ -59,6 +67,7 @@
   color: #2152FF;
   text-align: center;
   letter-spacing: 0.833333px;
+  font-family: Gilroy;
 }
 .choiseBlueButton{
   height: 44px;
@@ -72,4 +81,5 @@
   color: #FFFFFF;
   text-align: center;
   letter-spacing: 0.833333px;
+  font-family: Gilroy;
 }

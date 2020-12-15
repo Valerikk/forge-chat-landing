@@ -9,10 +9,14 @@
 
 }
 .title{
-  padding-bottom: 50px;
   background: url('/assets/images/customization_images/arrow.png') no-repeat;
   background-position: left 10% ;
 }
 .img{
   margin-top: 20px;
+}
+@media(max-width: 750px){
+  .customization{
+    margin-bottom: 400px;
+  }
 }

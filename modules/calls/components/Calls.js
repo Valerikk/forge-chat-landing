@@ -17,7 +17,7 @@ function Calls({t}) {
                   reasonsKey="CONNECT_CUSTOMERS"
                   t={t}
                   alignment="right"
-                  backURL="/assets/images/chatbot_images/underline.png"
+                  backURL="/assets/images/calls_images/underline.png"
                 />
             </div>
           </div>

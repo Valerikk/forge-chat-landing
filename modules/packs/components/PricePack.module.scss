@@ -29,9 +29,19 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 22px;
+  list-style-type: none;
   letter-spacing: 0.02em;
-  list-style-image: url('/assets/images/packs_images/check-circle-1.png');
   padding-left: 25px;
+    li{
+      position: relative;
+      height: 25px;
+      margin-bottom: 5px;
+    }
+    li::before{
+      content:  url('/assets/images/packs_images/check-circle-1.png');
+      position: absolute;
+      left: -10%;
+    }
 }
 .noPopular{
   display: none;
@@ -54,7 +64,8 @@
   color: #FFFFFF;
 }
 .bluePack{
-  background: linear-gradient(180.9deg, #0674E4 -63.78%, #031F7D 115.4%);
+  background: url('/assets/images/packs_images/bluePack.png');
+  background-position: top;
   box-shadow: 0px 20px 30px rgba(25, 27, 27, 0.2);
   border-radius: 26px;
   color: #ffffff;
@@ -62,6 +73,9 @@
   margin-top: -40px;
   .price{
     padding-top: 15px;
+  }
+  .list li::before{
+    content: url('/assets/images/packs_images/check-circle-blue.png');
   }
 }
 .pricePack{

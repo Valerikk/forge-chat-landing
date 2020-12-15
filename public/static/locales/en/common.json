@@ -261,24 +261,29 @@
   },
   "INFO":{
     "PRODUCT":{
-      "title":"Product",
-      "products":[
-        "How it works",
-        "Pricing",
-        "Customization",
-        "Integration",
-        "Documentation"
-      ]
+      "TITLE":"Product",
+      "PRODUCTS":{
+        "HOW_IT_WORKS": "How it works",
+        "PRISING": "Prising",
+        "CUSTOMIZATION": "Customitization",
+        "INTEGRATION":"Integration",
+        "DOCUMENTATION":"Documentation"
+      }
     },
     "COMPANY":{
-      "title":"Company",
-      "products":[
-        "About us",
-        "Blog",
-        "Contact us",
-        "Our products",
-        "Terms and Conditions"
-      ]
+      "TITLE":"Company",
+      "PRODUCTS":{
+        "ABOUT_US": "About us",
+        "BLOG": "Blog",
+        "CONTACT_US":"Contact us",
+        "OUR_PRODUCTS":"Our products",
+        "TERMS_AND_CONDITIONS" :"Terms and Conditions"
+      }
     }
+  },
+  "NAVBAR": {
+    "FEACTURES": "Features",
+    "INTEGRATIONS": "Integrations",
+    "PRICING": "Pricing"
   }
 }

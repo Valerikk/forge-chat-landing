@@ -32,7 +32,10 @@ function Direct({t}){
                 />
             </div>
           </div>
-          <img src="/assets/images/direct_images/dir_img.svg" />
+          <img 
+            className={style.directImg}
+            src="/assets/images/direct_images/dir_img.svg" 
+          />
           <div className="row justify-content-center">
             <div className="col-md-4">
               <ReasonCard 

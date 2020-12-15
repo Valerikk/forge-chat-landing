@@ -1,6 +1,7 @@
 .footer{
   font-family: Gilroy;
   font-weight: normal;
+  padding-bottom: 150px;
 }
 .title{
   font-weight: 600;
@@ -8,6 +9,7 @@
   line-height: 21px;
   letter-spacing: 0.02em;
   color: #2152FF;
+  margin-bottom: 30px;
 }
 .list{
   font-weight: 500;
@@ -17,6 +19,14 @@
   color: #3D4C63;
   list-style: none;
   padding: 0;
+  font-family: Gilroy;
+  font-style: normal;
+  background: url('/assets/images/footer_images/BG_1.png') no-repeat;
+}
+.list li{
+  margin: 10px 0 10px 0;
+  padding-left: 15px;
+  position: relative;
 }
 .forgeChat{
   color: #2152FF;
@@ -25,4 +35,21 @@
   line-height: 21px;
   letter-spacing: 0.02em;
   display: inline;
+}
+.list a{
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #3D4C63;
+  text-decoration: none;
+}
+.miniImg{
+  padding-right: 62px;
+}
+.networks{
+  background: url('/assets/images/footer_images/underline.png') no-repeat;
+  background-position: bottom left;
+  padding-bottom: 20px;
 }
