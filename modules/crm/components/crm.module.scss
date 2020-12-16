@@ -13,6 +13,12 @@
   background: url('/assets/images/crm_images/arrow.png') no-repeat ;
   background-position: 2% 2%;
 }
+.crmImg{
+  background: url('/assets/images/crm_images/crm_img.svg') no-repeat;
+  height: 1100px;
+  background-position: center;
+}
+
 @media(max-width: 750px){
   .crm{
     background-position: 50% 25%;

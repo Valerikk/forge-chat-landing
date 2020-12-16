@@ -14,10 +14,10 @@ export default function ReasonsTextCard({reasonsKey, t, backURL,alignment = "lef
   const textData = getReasons(reasonsKey, t)
   const {boxedLetter, beforeColored, colored, afterColored} = textData
   return(
-    <h2 className={style.textStrong} style={{textAlign: alignment, marginTop: 30 +'px', marginBottom: 30 +'px'}}>
-      <div className={titleStyles.boxedLetter}>{boxedLetter}</div> 
-      {beforeColored}<p className={titleStyles.blueText} style={{background: `url(${backURL}) no-repeat`, backgroundPosition: 'left bottom'}}>{colored}</p>{afterColored}
-    </h2>
+    <p className={style.textStrong} style={{textAlign: alignment, marginTop: 30 +'px', marginBottom: 30 +'px'}}>
+      <span className={titleStyles.boxedLetter}>{boxedLetter}</span> 
+      {beforeColored}<span className={titleStyles.blueText} style={{background: `url(${backURL}) no-repeat`, backgroundPosition: 'left bottom'}}>{colored}</span>{afterColored}
+    </p>
   )
 }
 

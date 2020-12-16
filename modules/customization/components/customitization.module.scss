@@ -12,8 +12,12 @@
   background: url('/assets/images/customization_images/arrow.png') no-repeat;
   background-position: left 10% ;
 }
-.img{
+.imgBlock{
   margin-top: 20px;
+  height: 755px;
+  max-width: 100%;
+  background: url('/assets/images/customization_images/customization.svg') no-repeat;
+  background-position: center;
 }
 @media(max-width: 750px){
   .customization{

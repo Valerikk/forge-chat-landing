@@ -58,3 +58,15 @@
   color: #FFFFFF;
   font-family: Gilroy;
 }
+@media(max-width: 800px){
+  .submit{
+    width: 120px;
+    margin-right: 10px;
+  }
+  .form{
+    width: 360px;
+  }
+  .input{
+    width: 300px;
+  }
+}
