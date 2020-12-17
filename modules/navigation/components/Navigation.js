@@ -1,7 +1,6 @@
 import style from "./navigation.module.scss";
 import { NavItems } from "./NavItems";
 import MainButtons from "../../main/components/MainButtons";
-// import Link from "next/link";
 import PropTypes from 'prop-types';
 import { withTranslation, Link } from '../../../i18n';
 
@@ -15,7 +14,7 @@ function Navigation({ t, isMainHeader = true, hide = false }) {
               src={isMainHeader ? "assets/images/main_images/logo.svg": "assets/images/main_images/logoBlack.png" }
             />
           </div>
-          <div className={`col-md-7 ${!isMainHeader && style.navItems}`}>
+          <div className={`col-md-7 ${/*!isMainHeader &&*/ style.navItems}`}>
             <ul>
               {NavItems.map((item) => (
                 <li key={t(item.title)}>

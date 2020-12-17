@@ -285,5 +285,11 @@
     "FEACTURES": "Features",
     "INTEGRATIONS": "Integrations",
     "PRICING": "Pricing"
+  },
+  "INTEGRATION":{
+    "SLACK":{
+      "title": "Slack",
+      "text": "Messenging"
+    }
   }
 }

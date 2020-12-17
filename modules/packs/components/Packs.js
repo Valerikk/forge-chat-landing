@@ -135,7 +135,7 @@ function Packs({t}) {
   return (
     <React.Fragment>
       <div className={style.packs}>
-        <div className={`container ${style.packsContainer}`}>
+        <div className={`myContainer ${style.packsContainer}`}>
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <ReasonsTextCard

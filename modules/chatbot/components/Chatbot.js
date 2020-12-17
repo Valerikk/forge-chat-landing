@@ -30,20 +30,20 @@ function Chatbot({t}) {
             </div>
           </div>
           <div className="row justify-content-end">
-            <div className="col-md-4">
-              <ReasonCard 
-                linkToIcon="/assets/images/chatbot_images/icon_chatbot_1.png"
-                reasonsKey="REAL_AVAILABILITY"
-                t={t}
-              />
-            </div>
-            <div className="col-md-4">
-              <ReasonCard 
-                linkToIcon="/assets/images/chatbot_images/icon_chatbot_2.png"
-                reasonsKey="SMART_RESPONSES1"
-                t={t}
-              />
-            </div>
+              <div className="col-md-4">
+                <ReasonCard 
+                  linkToIcon="/assets/images/chatbot_images/icon_chatbot_1.png"
+                  reasonsKey="REAL_AVAILABILITY"
+                  t={t}
+                />
+              </div>
+              <div className="col-md-4">
+                <ReasonCard 
+                  linkToIcon="/assets/images/chatbot_images/icon_chatbot_2.png"
+                  reasonsKey="SMART_RESPONSES1"
+                  t={t}
+                />
+              </div>
           </div>
           <div className="row">
             <div className="col-md-4 offset-md-6">

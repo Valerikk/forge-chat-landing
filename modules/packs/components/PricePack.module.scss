@@ -3,6 +3,7 @@
   font-size: 36px;
   line-height: 25px;
   letter-spacing: 0.02em;
+  margin: 0 0 32px 0;
 }
 .perMonth{
   font-weight: 500;
@@ -16,14 +17,15 @@
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.02em;
-  margin-bottom: 0;
+  padding:0 0 10px;
+  margin: 0;
 }
 .text{
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
   letter-spacing: 0.02em;
-  margin-top: 10px;
+  margin: 0 ;
 }
 .list{
   font-weight: 600;
@@ -40,7 +42,7 @@
     li::before{
       content:  url('/assets/images/packs_images/check-circle-1.png');
       position: absolute;
-      left: -10%;
+      left: -15%;
     }
 }
 .noPopular{
@@ -48,7 +50,7 @@
 }
 .popular{
   float: right;
-  margin-top: 15px;
+  margin: 25px 20px 0 0;
   padding-top: 7px;
   background: #03CCF8;
   border-radius: 13.5px;
@@ -72,16 +74,19 @@
   height: 480px;
   margin-top: -40px;
   padding-left: 25px;
+  width: 300px;
   .price{
-    padding-top: 15px;
+    padding-top: 50px;
   }
   .list li::before{
     content: url('/assets/images/packs_images/check-circle-blue.png');
+    position: absolute;
+    left: -10%;
   }
 }
 .pricePack{
   height: 460px;
-  padding-left: 40px;
+  padding: 37px 7px 0px 27px;
 }
 
 .cardPrice {
