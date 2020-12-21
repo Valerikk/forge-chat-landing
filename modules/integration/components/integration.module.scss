@@ -4,4 +4,8 @@
   font-family: Gilroy;
   font-style: normal;
 }
-
+@media(max-width: 800px){
+  .integration{
+    height:2000px
+  }
+}
