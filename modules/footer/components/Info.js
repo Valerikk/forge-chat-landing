@@ -30,6 +30,7 @@ function Footer({ t }) {
           href: "#",
         },
       ],
+      BG:"/assets/images/footer_images/BG_1.png"
     },
     {
       title: t("INFO.COMPANY.TITLE"),
@@ -55,53 +56,54 @@ function Footer({ t }) {
           href: "#",
         },
       ],
+      BG:"/assets/images/footer_images/BG_2.png"
     },
   ];
 
   return (
-    <React.Fragment>
-      <div className={`container ${style.footer}`}>
+      <div className={`myContainer ${style.footer}`}>
         <div className="row">
           <FooterTitle />
           {footerLinks.map((item) => (
-            <Product title={item.title} array={item.links} />
+            <Product title={item.title} array={item.links} background={item.BG}/>
           ))}
           <div className="col-md-4">
-            <div className={style.title}>Contact Us</div>
-            <div>
-              <ul className={style.list}>
-                <li>
-                  <img src="/assets/images/footer_images/mail.png"></img>
-                  forge.solutions@gmail.com
-                </li>
-                <li>
-                  <img src="/assets/images/footer_images/phone.png"></img>
-                  +38000000000 +38000000000
-                </li>
-                <li>
-                  <img src="/assets/images/footer_images/adress.png"></img>
-                  Ukraine, Kharkiv, Blagoveshen’ska str.,1
-                </li>
-                <li className={style.networks}>
-                  <img
-                    className={style.miniImg}
-                    src="/assets/images/footer_images/Inst.png"
-                  ></img>
-                  <img
-                    className={style.miniImg}
-                    src="/assets/images/footer_images/facebook.png"
-                  ></img>
-                  <img
-                    className={style.miniImg}
-                    src="/assets/images/footer_images/twitter.png"
-                  ></img>
-                </li>
-              </ul>
+            <div className={style.contacts}>
+              <div className={style.title}>Contact Us</div>
+              <div>
+                <ul className={style.list}>
+                  <li>
+                    <img src="/assets/images/footer_images/mail.png"></img>
+                    forge.solutions@gmail.com
+                  </li>
+                  <li>
+                    <img src="/assets/images/footer_images/phone.png"></img>
+                    +38000000000 +38000000000
+                  </li>
+                  <li>
+                    <img src="/assets/images/footer_images/adress.png"></img>
+                    Ukraine, Kharkiv, Blagoveshen’ska str.,1
+                  </li>
+                  <li className={style.networks}>
+                    <img
+                      className={style.miniImg}
+                      src="/assets/images/footer_images/Inst.png"
+                    ></img>
+                    <img
+                      className={style.miniImg}
+                      src="/assets/images/footer_images/facebook.png"
+                    ></img>
+                    <img
+                      className={style.miniImg}
+                      src="/assets/images/footer_images/twitter.png"
+                    ></img>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </React.Fragment>
   );
 }
 Footer.getInitialProps = async () => ({

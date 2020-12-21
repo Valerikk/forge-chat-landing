@@ -13,7 +13,7 @@ const getReasons = (key, t ) => {
         <form>
             <input className={style.nameInput} placeholder="Name"></input>
             <input className={style.emailInput} placeholder="Email"></input>
-            <input className={style.areaInput}></input>
+            <textarea className={style.areaInput} placeholder="Type message..."></textarea>
             <button className={style.button} type="submit" >{buttonText}</button>
         </form>
     )

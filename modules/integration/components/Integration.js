@@ -21,19 +21,37 @@ function Integration({ t }) {
             </div>
           </div>
           <div className="row">
-            <IntegrationCard
-              reasonsKey="SLACK"
-              t={t}
-              linkToIcon="/assets/images/integration_images/Slack.png"
-              buttonLink="https://slack.com/intl/en-ua/"
-            />
-            <IntegrationCard
-              reasonsKey="SLACK"
-              t={t}
-              linkToIcon="/assets/images/integration_images/Slack.png"
-              buttonLink="https://slack.com/intl/en-ua/"
-            />
-            <div className="col-md-6 ml-md-auto">
+            <div className="col-md-7">
+              <IntegrationCard
+                reasonsKey="SLACK"
+                t={t}
+                linkToIcon="/assets/images/integration_images/Slack.png"
+                buttonLink="https://slack.com/intl/en-ua/"
+                right={false}
+              />
+              <IntegrationCard
+                reasonsKey="SLACK"
+                t={t}
+                linkToIcon="/assets/images/integration_images/Slack.png"
+                buttonLink="https://slack.com/intl/en-ua/"
+                right={true}
+              />
+              <IntegrationCard
+                reasonsKey="SLACK"
+                t={t}
+                linkToIcon="/assets/images/integration_images/Slack.png"
+                buttonLink="https://slack.com/intl/en-ua/"
+                right={false}
+              />
+              <IntegrationCard
+                reasonsKey="SLACK"
+                t={t}
+                linkToIcon="/assets/images/integration_images/Slack.png"
+                buttonLink="https://slack.com/intl/en-ua/"
+                right={true}
+              />
+            </div>
+            <div className="col-md-5 ml-md-auto">
               <DescribingText
                 reasonsKey="INTEGRATION_TEXT"
                 t={t}
@@ -41,6 +59,22 @@ function Integration({ t }) {
               />
             </div>
           </div>
+          {/*<div className="row">
+          <IntegrationCard
+            reasonsKey="SLACK"
+            t={t}
+            linkToIcon="/assets/images/integration_images/Slack.png"
+            buttonLink="https://slack.com/intl/en-ua/"
+            right={false}
+          />
+          <IntegrationCard
+            reasonsKey="SLACK"
+            t={t}
+            linkToIcon="/assets/images/integration_images/Slack.png"
+            buttonLink="https://slack.com/intl/en-ua/"
+            right={true}
+          />
+  </div>*/}
         </div>
       </div>
     </React.Fragment>

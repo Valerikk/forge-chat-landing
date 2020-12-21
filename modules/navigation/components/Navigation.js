@@ -27,7 +27,7 @@ function Navigation({ t, isMainHeader = true, hide = false }) {
           </div>
           {!isMainHeader && (
             <div className="col-md-2">
-              <MainButtons t={t} reasonsKey="BUTTON" />
+              <MainButtons t={t} reasonsKey="BUTTON" hidden={true}/>
             </div>
           )}
         </div>

@@ -86,12 +86,22 @@
   background: none;
   border: none;
   border-radius: 50%;
+  width: 53px;
+  height: 53px;
+  background: url('/assets/images/main_images/play button.svg') no-repeat;
+  position: absolute;
+  left: 240px;
+  top: 10px;
 }
-.playImg{
-  border: none;
+.hidden{
+  display: none;
 }
 @media(max-width: 800px){
   .firstText{
     font-size: 50px;
   }
 }
+
+
+
+

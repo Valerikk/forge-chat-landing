@@ -2,7 +2,7 @@
   position: relative;
   font-family: Gilroy;
   font-weight: normal;
-  padding-bottom: 170px;
+  padding-bottom: 130px;
   background: url('/assets/images/comments_images/background.png') no-repeat;
   background-position: center bottom;
 }
@@ -37,9 +37,26 @@
   opacity: 1;
   transition-duration: 1s;
 }
-.nextButton{
+.nextButton:hover{
   background: url('/assets/images/comments_images/nextArrow.png');
 }
-.prevButton{
+.prevButton:hover{
   background: url('/assets/images/comments_images/prevArrow.png');
+}
+.sliderBar{
+  width: 26px;
+  height: 8px;
+  background: #2152FF;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+.sliderBarCurrent{
+  transition: all 0.2s;
+  width: 81px;
+  height: 8px;
+  background: #2152FF;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
 }

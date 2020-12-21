@@ -1,6 +1,7 @@
 import { useState } from "react";
 import style from "./comments.module.scss";
 import Review from "./Review";
+import SliderBar from "./SliderBar";
 export default function Slider() {
   const reviews = [
     {
@@ -33,6 +34,7 @@ export default function Slider() {
   if (length <= 0) {
     return null;
   }
+  console.log(current)
   return (
     <div
       className={`row justify-content-center align-items-center ${style.slider}`}
@@ -40,7 +42,7 @@ export default function Slider() {
       <div className="col-sm-1">
         <button onClick={prevSlide}>
           <img
-            className={current != 0 && style.prevButton}
+            className={style.prevButton}
             src="/assets/images/comments_images/arrow1.png"
           />
         </button>
@@ -63,10 +65,13 @@ export default function Slider() {
       <div className="col-sm-1">
         <button onClick={nextSlide}>
           <img
-            className={current != length - 1 && style.nextButton}
+            className={style.nextButton}
             src="/assets/images/comments_images/arrow2.png"
           />
         </button>
+      </div>
+      <div>
+          <SliderBar arr={reviews} current={current}/>
       </div>
     </div>
   );

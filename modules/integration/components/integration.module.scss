@@ -1,12 +1,7 @@
 .integration{
-  background: url('/assets/images/integration_images/integration.svg') no-repeat;
+  background: url('/assets/images/integration_images/BG.svg') no-repeat;
   height: 1100px;
   font-family: Gilroy;
   font-style: normal;
 }
-@media(max-width: 750px){
-  .integration{
-    height: 2100px;
-    padding-top: 1000px;
-  }
-}
+

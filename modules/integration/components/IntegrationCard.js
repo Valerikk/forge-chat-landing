@@ -12,12 +12,12 @@ export default function IntegrationCard({
   linkToIcon,
   t,
   buttonLink,
+  right
 }) {
   const textData = getReasons(reasonsKey, t);
   const { title, text } = textData;
   return (
-    <div className='col-md-3'>
-      <div className={style.card}>
+      <div className={!right ? style.card : style.rightCard} >
         <img className={style.icon} src={linkToIcon} />
         <div className={style.title}>{title}</div>
         <div className={style.text}>{text}</div>
@@ -27,6 +27,5 @@ export default function IntegrationCard({
           </Link>
         </button>
       </div>
-    </div>
   );
 }

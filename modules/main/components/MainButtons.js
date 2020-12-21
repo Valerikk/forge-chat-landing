@@ -1,26 +1,22 @@
-import styles from './main.module.scss';
+import styles from "./main.module.scss";
 
+const getReasons = (key, t) => {
+  return {
+    text: t("MAIN." + key + ".text"),
+  };
+};
 
-const getReasons = (key, t ) => {
-    return {
-      text: t('MAIN.'+key+'.text'),
-    }
-  }
-
-export default function MainButtons({reasonsKey, t}) {
-  const textData = getReasons(reasonsKey, t)
-  const {text} = textData
+export default function MainButtons({ reasonsKey, t, hidden }) {
+  const textData = getReasons(reasonsKey, t);
+  const { text } = textData;
   return (
-      <div>
-        <button className={styles.tryButton}>{text}</button>
-        <div className={styles.buttonBack}></div>
-            <button className={styles.play}>
-            {/* <img
-                className={styles.playImg}
-                src="/assets/images/main_images/play button.svg"
-                alt="text"
-            /> */}
-        </button>
-     </div>
-  )
+    <div>
+      <button className={styles.tryButton}>{text}</button>
+      <div className={styles.buttonBack}></div>
+      <button
+        onClick={() => alert("Все четко!")}
+        className={!hidden ? styles.play : styles.hidden}
+      />
+    </div>
+  );
 }
